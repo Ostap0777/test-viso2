@@ -1,0 +1,25 @@
+.button {
+	background-color: brown;
+	border-radius: 20px;
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+	&:hover {
+		background-color: rgb(231, 83, 83);
+	}
+	&__container {
+		position: absolute;
+		bottom: 5%;
+		margin-left: 5%;
+		display: flex;
+		padding: 10px 20px;
+		gap: 20px;
+	}
+	&__text {
+		color: aliceblue;
+		background-color: rgb(72, 72, 94, 0.7);
+		padding: 10px 20px;
+		border-radius: 10px;
+	}
+}
+
+
